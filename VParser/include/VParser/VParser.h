@@ -20,7 +20,7 @@
 
 #define VPARSER_VERSION_MAJOR 	1
 #define VPARSER_VERSION_MINOR 	0
-#define VPARSER_VERSION_MICRO 	0
+#define VPARSER_VERSION_MICRO 	1
 
 #define VPARSER_VERSION_INT		VU_VERSION_INT( VPARSER_VERSION_MAJOR, \
 												VPARSER_VERSION_MINOR, \
@@ -39,11 +39,24 @@
 
 
 
-VPARSER_EXTERN NSString * const VParserWebSiteURLKey;
-VPARSER_EXTERN NSString * const VParserVideoURLKey;
-VPARSER_EXTERN NSString * const VParserVideoTitleKey;
-VPARSER_EXTERN NSString * const VParserWebSiteHeaderKey;
+VPARSER_EXTERN NSString * const VParserWebSiteURLKey;		// @Deprecated
+VPARSER_EXTERN NSString * const VParserVideoURLKey;			// @Deprecated
+VPARSER_EXTERN NSString * const VParserVideoTitleKey;		// @Deprecated
+VPARSER_EXTERN NSString * const VParserWebSiteHeaderKey;	// @Deprecated
 
+VPARSER_EXTERN NSString * const VParserKeyWebSiteUrl;
+VPARSER_EXTERN NSString * const VParserKeyVideoTitle;
+VPARSER_EXTERN NSString * const VParserKeyWebSiteHeader;
+VPARSER_EXTERN NSString * const VParserKeyVideoUrl;
+VPARSER_EXTERN NSString * const VParserKeyVideoSdUrl;
+VPARSER_EXTERN NSString * const VParserKeyVideoEdUrl;
+VPARSER_EXTERN NSString * const VParserKeyVideoHd720Url;
+VPARSER_EXTERN NSString * const VParserKeyVideoHd1080Url;
+
+
+#define kParserReady @"kParserReady"
+#define kParserFailed @"kParserFailed"
+#define kParserExpired @"kParserExpired"
 
 @interface VParser : NSObject
 
