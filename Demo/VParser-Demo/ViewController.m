@@ -35,7 +35,18 @@
 	mParser = [VParser defaultParser];
 
 //	self.siteUrlTfd.text = @"http://v.youku.com/v_show/id_XNTAxNzIwNzQ4.html";
-	self.siteUrlTfd.text = @"http://www.m1905.com/vod/play/488044.shtml";
+//	self.siteUrlTfd.text = @"http://www.m1905.com/vod/play/488044.shtml";
+//	self.siteUrlTfd.text = @"http://v.youku.com/v_show/id_XNjEyNDg0NTc2.html";
+//	self.siteUrlTfd.text = @"http://v.youku.com/v_show/id_XNjEzNzIwOTky.html?firsttime=604&ev=12";
+//	self.siteUrlTfd.text = @"http://www.iqiyi.com/dianshiju/20100830/n31441.html";
+//	self.siteUrlTfd.text = @"http://v.pptv.com/show/ibtQ3tByC8jCTEXk.html";
+//	self.siteUrlTfd.text = @"http://www.letv.com/ptv/vplay/2126583.html";
+//	self.siteUrlTfd.text = @"http://www.letv.com/ptv/vplay/2117459.html";
+
+//	self.siteUrlTfd.text = @"http://v.youku.com/v_show/id_XNjIxMTM4MjY4.html?f=20390747&ev=1";
+	self.siteUrlTfd.text = @"http://v.youku.com/v_show/id_XNDM3NTk5NDY0.html";
+	self.siteUrlTfd.text = @"http://v.youku.com/v_show/id_XMzYwNDAyNDgw.html";
+	self.siteUrlTfd.text = @"http://v.youku.com/v_show/id_XNDQ2NTk3OTY4.html";
 }
 
 - (void)didReceiveMemoryWarning
